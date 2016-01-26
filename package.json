@@ -1,15 +1,16 @@
 {
-  "name": "timestamp-service",
-  "version": "1.0.0",
-  "description": "Unix to readable date conversions",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Brandon Padilla",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.13.4",
-    "mongodb": "^2.1.4"
-  }
+    "name": "timestamp-service",
+    "version": "1.0.0",
+    "description": "Unix/Natural date conversions",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Brandon Padilla",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.13.4",
+        "moment": "^2.11.1",
+        "mongodb": "^2.1.4"
+    }
 }
